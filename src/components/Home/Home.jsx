@@ -24,7 +24,7 @@ const Home = () => {
         </p>
 
         <div className="home-buttons">
-          <button>View Projects</button>
+          <button><a href="#projects">View Projects</a></button>
           <button onClick={handleDownload}>Download Resume</button>
         </div>
       </div>
